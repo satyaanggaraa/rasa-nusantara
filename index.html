@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>rasanusantara.com</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-wrapper">
+        <div class="logo">
+          <i class="bx bx-bowl-hot"></i>
+          <span>RasaNusantara</span>
+        </div>
+        <div class="mens-wrapper">
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#beranda" class="menu-link">Beranda</a>
+            </li>
+            <li class="menu-item">
+              <a href="#daftar" class="menu-link">Menu</a>
+            </li>
+            <li class="menu-item">
+              <a href="#favorit" class="menu-link">Spesial</a>
+            </li>
+            <li class="menu-item">
+              <a href="#tentang" class="menu-link">Tentang</a>
+            </li>
+            <li class="menu-item">
+              <a href="#kontak" class="menu-link">Kontak</a>
+            </li>
+          </ul>
+          <div class="btn-order mobile-btn">
+            <h4>Pesan Sekarang</h4>
+          </div>
+        </div>
+        <div class="nav-right">
+          <div class="btn-order desktop-btn">
+            <h4>Pesan Sekarang</h4>
+          </div>
+          <div class="menu-toggle bx bx-menu"></div>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <section class="home" id="beranda">
+        <div class="container home-wrapper">
+          <div class="title-icon">
+            <i class="bx bx-medal"></i>
+            <span>Restaurant Terbaik 2026</span>
+          </div>
+          <div class="title-home">
+            <h1 class="heading-home">Cita Rasa <span>Nusantara</span></h1>
+            <h5 class="subheading-desc">
+              Nikmati kelezatan masakan Indonesia yang autentik dengan bumbu
+              rempah pilihan dan resep turun temurun. Setiap hidangan adalah
+              karya seni kuliner.
+            </h5>
+          </div>
+          <div class="home-button">
+            <div class="btn-menu">Lihat Menu</div>
+            <div class="btn-reservasi">Reservasi Meja</div>
+          </div>
+          <div class="home-stats">
+            <div class="info-home1">
+              <i class="bx bx-star"></i>
+              <div class="text">
+                <strong>4.9</strong>
+                <p>Rating</p>
+              </div>
+            </div>
+            <div class="info-home2">
+              <i class="bx bx-time"></i>
+              <div class="text">
+                <strong>30 Min</strong>
+                <p>Penyajian</p>
+              </div>
+            </div>
+            <div class="info-home3">
+              <i class="bx bx-medal"></i>
+              <div class="text">
+                <strong>15+</strong>
+                <p>Penghargaan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- Menu start -->
+
+    <section class="menu1" id="daftar">
+      <div class="container menu-wrapper">
+        <div class="text-menu">
+          <strong>Menu Kami</strong>
+        </div>
+        <div class="title-menu">
+          <h1 class="heading-menu">Hidangan Pilihan</h1>
+          <p class="subheading-menu">
+            Berbagai menu khas Indonesia dengan cita rasa autentik yang
+            menggugah selera
+          </p>
+        </div>
+
+        <div class="menu-list" id="menuList"></div>
+        <div class="pagination" id="pagination"></div>
+      </div>
+    </section>
+
+    <!-- Menu end -->
+
+    <!-- spesial start -->
+
+    <section class="spesial" id="favorit">
+      <div class="container spesial-wrapper">
+        <div class="text-spesial">
+          <i class="bx bx-crown"></i>
+          <strong>Menu Spesial</strong>
+        </div>
+
+        <div class="title-spesial">
+          <h1 class="heading-spesial">Keunggulan Kami</h1>
+          <p class="subheading-spesial">
+            Yang membuat RasaNusantara berbeda dan istimewa
+          </p>
+        </div>
+
+        <div class="project-spesial">
+          <div class="spesial-card">
+            <div class="spesial-icon">
+              <i class="bx bx-crown"></i>
+            </div>
+            <div class="text-card">
+              <h3 class="heading-text">Resep Turun Temurun</h3>
+              <p class="subheading-text">
+                Setiap hidangan dibuat dengan resep autentik yang diwariskan
+                dari generasi ke generasi, menjaga keaslian cita rasa Nusantara.
+              </p>
+            </div>
+          </div>
+
+          <div class="spesial-card">
+            <div class="spesial-icon">
+              <i class="bx bx-diamond"></i>
+            </div>
+            <div class="text-card">
+              <h3 class="heading-text">Bahan Premium</h3>
+              <p class="subheading-text">
+                Kami hanya menggunakan bahan-bahan pilihan berkualitas tinggi
+                dan bumbu rempah segar untuk menghasilkan rasa yang sempurna.
+              </p>
+            </div>
+          </div>
+
+          <div class="spesial-card">
+            <div class="spesial-icon">
+              <i class="bx bx-trending-up"></i>
+            </div>
+            <div class="text-card">
+              <h3 class="heading-text">Chef Berpengalaman</h3>
+              <p class="subheading-text">
+                Tim chef propesional dengan pengalaman puluhan tahun di bidang
+                kuliner Nusantara, memastikan kualitas setiap sajian.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- spesial end -->
+
+    <!-- About chef start -->
+
+    <section class="about">
+      <div class="about-wrapper">
+        <div class="image">
+          <img src="assets/img/background-about.jpeg" alt="chef" />
+        </div>
+        <div class="about-content">
+          <h2 class="heading-about">Dari Dapur Kami untuk Keluarga Anda</h2>
+          <p class="subheading-about">
+            Setiap hidangan disiapkan dengan penuh cinta dan perhatian terhadap
+            detail. Chef kami yang berpengalaman memastikan setiap piring yang
+            keluar dari dapur adalah karya seni kuliner terbaik.
+          </p>
+
+          <div class="body-about">
+            <span>20+ Tahun Pengalaman</span>
+            <span>100% Halal</span>
+            <span>Higenis</span>
+          </div>
+        </div>
+        <div class="aboutme-content"></div>
+      </div>
+    </section>
+    <!-- About chef end -->
+
+    <!-- aboutme start -->
+
+    <section class="aboutme" id="tentang">
+      <div class="container aboutme-wrapper">
+        <!-- kiri -->
+        <div class="aboutme-left">
+          <strong class="badge-aboutme">Tentang Kami</strong>
+          <h1 class="heading-aboutme">Cerita di Balik RasaNusantara</h1>
+          <div class="subheading-aboutme">
+            <p>
+              RasaNusantara didirikan pada tahun 2004 dengan misi untuk
+              memperkenalkan dan melestarikan kekayaan kuliner Indonesia.
+              Berawal dari sebuah warung kecil, kini kami telah berkembang
+              menjadi restaurant favorit keluarga Indonesia.
+            </p>
+            <p>
+              Kami bangga menyajikan hidangan-hidangan tradisional dengan
+              sentuhan modern, mempertahankan keaslian rasa sambil mengikuti
+              standar kuliner internasional.
+            </p>
+            <p>
+              Setiap hari, kami melayani ribuan pelanggan yang mencari
+              pengalaman kuliner autentik Indonesia. Kepuasan Anda adalah
+              kebanggaan kami.
+            </p>
+          </div>
+          <div class="project-aboutme">
+            <div class="aboutme-card">
+              <div class="text-card">
+                <h1>20+</h1>
+                <p>Tahun Berpengalaman</p>
+              </div>
+            </div>
+            <div class="aboutme-card">
+              <div class="text-card">
+                <h1>50K+</h1>
+                <p>Pelanggan Setia</p>
+              </div>
+            </div>
+            <div class="aboutme-card">
+              <div class="text-card">
+                <h1>100+</h1>
+                <p>Menu Pilihan</p>
+              </div>
+            </div>
+            <div class="aboutme-card">
+              <div class="text-card">
+                <h1>15+</h1>
+                <p>Penghargaan</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- kanan -->
+        <div class="aboutme-right">
+          <div class="body-content">
+            <h3>Informasi Kontak</h3>
+            <div class="contact-item">
+              <div class="icon-content">
+                <i class="bx bx-map"></i>
+              </div>
+              <div class="text-content">
+                <h5>Alamat</h5>
+                <p>
+                  Jl. Kuliner Nusantara No. 123 Jakarta Selatan, DKI Jakarta
+                  12345
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon-content">
+                <i class="bx bx-phone"></i>
+              </div>
+              <div class="text-content">
+                <h5>Telepon</h5>
+                <p>+62 21 1234 5678</p>
+                <p>+62 89 5066 63147</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon-content">
+                <i class="bx bx-envelope"></i>
+              </div>
+              <div class="text-content">
+                <h5>Email</h5>
+                <p>info@rasanusantara</p>
+                <p>reservasi@rasanusantara.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon-content">
+                <i class="bx bx-time"></i>
+              </div>
+              <div class="text-content">
+                <h5>Jam Buka</h5>
+                <p>Senin - Jumat: 10.00 - 22.00</p>
+                <p>Sabtu - Minggu: 09.00 - 23.00</p>
+              </div>
+            </div>
+            <div class="btn-reserv">
+              <span>Buat Reservasi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- aboutme end -->
+
+    <!-- contact start -->
+
+    <section class="contact" id="kontak">
+      <div class="container contact-wrapper">
+        <strong class="badge-contact">Hubungi Kami</strong>
+        <div class="title-contact">
+          <h1 class="heading-contact">Ada Pertanyaan?</h1>
+          <p class="subheading-contact">
+            Kami siap membantu Anda. Kirimkan pesan dan kami akan segera
+            merespons
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xxxxx" method="POST">
+            <div class="row">
+              <div class="form-group">
+                <label>Nama Lengkap</label>
+                <input type="text" placeholder="Masukan Nama Anda" required />
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="text" placeholder="email@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Nomer Telepon</label>
+              <input type="text" placeholder="+62 812 3456 7890" />
+            </div>
+            <div class="form-group">
+              <label>Pesan</label>
+              <textarea
+                placeholder="Tulis pesan Anda di sini..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-kirim">
+              <i class="bx bx-paper-plane"></i>
+              <span>Kirim Pesan</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP -->
+
+    <section class="map">
+      <div class="container map-wrapper">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.945302913345!2d110.995053!3d-7.731604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a2f7c9e7f2f0d%3A0xabcdef1234567890!2sPacitan!5e0!3m2!1sid!2sid!4v1700000000000"
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact end -->
+
+    <!-- footer start -->
+
+    <section class="footer">
+      <div class="container footer-wrapper">
+        <div class="project-footer">
+          <div class="footer-card">
+            <div class="footer-logo">
+              <i class="bx bx-bowl-hot"></i>
+              <span>RasaNusantara</span>
+            </div>
+            <div class="footer-desc">
+              <p>
+                Menyajikan cita rasa autentik Indonesia dengan resep turun
+                temurun dan bahan berkualitas premium.
+              </p>
+            </div>
+            <div class="footer-social">
+              <i class="bx bxl-facebook"></i>
+              <i class="bx bxl-instagram"></i>
+              <i class="bx bxl-twitter"></i>
+              <i class="bx bxl-youtube"></i>
+            </div>
+          </div>
+
+          <div class="footer-card">
+            <div class="title-card">
+              <h4>Menu Cepat</h4>
+            </div>
+            <ul class="vehicle-area">
+              <li>Menu Kami</li>
+              <li>Menu Spesial</li>
+              <li>Tentang Kami</li>
+              <li>Kontak</li>
+              <li>Reservasi</li>
+            </ul>
+          </div>
+
+          <div class="footer-card">
+            <div class="title-card">
+              <h4>Layanan</h4>
+            </div>
+            <ul class="vehicle-area">
+              <li>Dine In</li>
+              <li>Delivery</li>
+              <li>Catering</li>
+              <li>Private Event</li>
+              <li>Gift Card</li>
+            </ul>
+          </div>
+
+          <div class="footer-card">
+            <div class="title-card">
+              <h4>Hubungi Kami</h4>
+            </div>
+            <div class="info-footer">
+              <i class="bx bx-map"></i>
+              <p>Jl. Kuliner Nusantara No. 123 Jakarta Selatan 12345</p>
+            </div>
+            <div class="info-footer">
+              <i class="bx bx-phone"></i>
+              <p>+62 89 9123 4567</p>
+            </div>
+            <div class="info-footer">
+              <i class="bx bx-envelope"></i>
+              <p>info@rasanusantara.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-left">
+            <p>© 2026 RasaNusantara. All rights reserved.</p>
+          </div>
+          <div class="footer-right">
+            <a href="#">Privacy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer end -->
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
